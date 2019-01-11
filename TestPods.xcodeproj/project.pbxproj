@@ -15,6 +15,7 @@
 		E9E9014A21E83A7A005AAE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E9014921E83A7A005AAE4F /* main.m */; };
 		E9E9015421E83A7A005AAE4F /* TestPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E9015321E83A7A005AAE4F /* TestPodsTests.m */; };
 		E9E9015F21E83A7B005AAE4F /* TestPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E9015E21E83A7B005AAE4F /* TestPodsUITests.m */; };
+		E9E9016F21E83CE3005AAE4F /* ZXLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E9016E21E83CE3005AAE4F /* ZXLogTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E9E9015A21E83A7B005AAE4F /* TestPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E9015E21E83A7B005AAE4F /* TestPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodsUITests.m; sourceTree = "<group>"; };
 		E9E9016021E83A7B005AAE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E9016D21E83CE3005AAE4F /* ZXLogTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXLogTool.h; sourceTree = "<group>"; };
+		E9E9016E21E83CE3005AAE4F /* ZXLogTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLogTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E9E9012E21E83A79005AAE4F = {
 			isa = PBXGroup;
 			children = (
+				E9E9016C21E83C8E005AAE4F /* TestTools */,
 				E9E9013921E83A7A005AAE4F /* TestPods */,
 				E9E9015221E83A7A005AAE4F /* TestPodsTests */,
 				E9E9015D21E83A7B005AAE4F /* TestPodsUITests */,
@@ -130,6 +134,15 @@
 				E9E9016021E83A7B005AAE4F /* Info.plist */,
 			);
 			path = TestPodsUITests;
+			sourceTree = "<group>";
+		};
+		E9E9016C21E83C8E005AAE4F /* TestTools */ = {
+			isa = PBXGroup;
+			children = (
+				E9E9016D21E83CE3005AAE4F /* ZXLogTool.h */,
+				E9E9016E21E83CE3005AAE4F /* ZXLogTool.m */,
+			);
+			path = TestTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E9016F21E83CE3005AAE4F /* ZXLogTool.m in Sources */,
 				E9E9013F21E83A7A005AAE4F /* ViewController.m in Sources */,
 				E9E9014A21E83A7A005AAE4F /* main.m in Sources */,
 				E9E9013C21E83A7A005AAE4F /* AppDelegate.m in Sources */,
